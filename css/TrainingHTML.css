@@ -21,6 +21,57 @@ h1 {
     font-family: 'Rubik Dirt', cursive;
 }
 
+.seccion-oscura {
+    color: white;
+    background-color: #1b1b32;
+}
+
+.seccion-clara {
+    color: black;
+    background-color: white;
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.seccion-texto {
+    font-size: 1.2rem;
+}
+
+/* Experiencia */
+
+.experiencia {
+    padding: 40px 40px 60px 40px;
+
+}
+
+.experiencia-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.experiencia i {
+    font-size: 2.5rem;
+    color: #7ade30;
+    background-color: #0a0a23;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
+.badges-contenedor {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badge {
+    margin: 5px;
+}
+
 /* Adaptable (Resopnsivo) */
 
 @media screen and (max-width: 767px) {
@@ -62,3 +113,15 @@ h1 {
 
 }
 
+/* Sobre mi */
+
+.sobre-mi {
+    height: 500px;
+    padding: 10px;
+
+}
+
+.sobre-mi .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
